@@ -1,4 +1,4 @@
-exports interface Todo {
+export interface Todo {
     title: string,
     detail: string,
     deadline: string,
