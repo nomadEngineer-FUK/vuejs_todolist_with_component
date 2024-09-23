@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { reactive, ref, provide, computed } from 'vue';
-import { todosData } from "./UseTodosManagement";
+import { todosData } from "./useTodosManagement";
 
 // ファイルの読み込み
 import Header from './components/Header.vue';
