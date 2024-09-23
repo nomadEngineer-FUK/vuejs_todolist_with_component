@@ -1,3 +1,5 @@
+<!-- タスクの編集画面（モーダルウィンドウ） -->
+
 <script setup lang="ts">
 import { inject } from "vue";
 import type { Todo } from "../interface"; // タスクデータの型

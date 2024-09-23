@@ -1,3 +1,5 @@
+<!-- To do list の各タスクを表示 -->
+
 <script setup lang="ts">
 import { inject } from 'vue';
 import type { Todo } from "../interface"; // タスクデータの型

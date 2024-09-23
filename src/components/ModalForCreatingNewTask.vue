@@ -1,3 +1,5 @@
+<!-- タスクの新規作成画面（モーダルウィンドウ） -->
+
 <script setup lang="ts">
 import { inject } from "vue";
 import type { Todo } from "../interface"; // タスクデータの型
@@ -6,7 +8,7 @@ import type { Todo } from "../interface"; // タスクデータの型
 // 【タスクデータ】
 const newTodo = inject("newTodo") as { value: Todo };               // 新規タスク作成用モーダルウィンドウ内での入力値
 const createNewTask = inject("createNewTask") as Function;          // 新規タスク作成の関数
-const STATUS_ITEMS = inject("STATUS_ITEMS") as { value: string[] }; // ステータス
+const STATUS_ITEMS = inject("STATUS_ITEMS") as string[]; // ステータス
 
 // 【モーダルウィンドウ】
 const toggleModal = inject("toggleModal") as Function;                                 // 表示・非表示を切り替える関数

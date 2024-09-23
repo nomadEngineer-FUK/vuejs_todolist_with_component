@@ -1,3 +1,5 @@
+<!-- To do list のタスクを表示するテーブル部分のヘッダー -->
+
 <template>
     <tr>
         <th class="sticky_cross" style="width: 10%;">ステータス</th>
